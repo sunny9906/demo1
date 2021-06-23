@@ -12,9 +12,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Student {
-
-
-
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
         private Long id;
