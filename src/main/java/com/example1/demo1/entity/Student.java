@@ -11,7 +11,7 @@ import lombok.Setter;
 @Table(name="stu")
 @Getter
 @Setter
-public class Student { @Id @GeneratedValue(strategy = GenerationType.AUTO) private Long id;private String name;
+public class Student   { @Id @GeneratedValue(strategy = GenerationType.AUTO) private Long id;private String name;
     }
 
 
